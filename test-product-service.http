@@ -1,5 +1,82 @@
-# Test the product-service
+POST http://localhost:3030/products
+Content-Type: application/json
 
-### Get list of products
-GET http://localhost:3030/products
-Accept: application/json
+{
+  "id": "p1001",
+  "name": "Gaming Mouse",
+  "category": "Accessories",
+  "brand": "Logitech",
+  "price": 79.99,
+  "stock": 25
+}
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "id": "p1002",
+  "name": "Mechanical Keyboard",
+  "category": "Accessories",
+  "brand": "Keychron",
+  "price": 129.99,
+  "stock": 15
+}
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "id": "p1003",
+  "name": "4K Monitor",
+  "category": "Monitors",
+  "brand": "Samsung",
+  "price": 349.99,
+  "stock": 10
+}
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "id": "p1004",
+  "name": "Goose Collar",
+  "category": "Pets",
+  "brand": "Jackson Industries",
+  "price": 79.99,
+  "stock": 500
+}
+
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "id": "p1005",
+  "name": "TEST",
+  "category": "TEST",
+  "brand": "TEST",
+  "price": 79.99,
+  "stock": 500
+}
+
+###
+
+POST http://localhost:3030/products
+Content-Type: application/json
+
+{
+  "id": "p1006",
+  "name": "TEST2",
+  "category": "TEST2",
+  "brand": "TEST2",
+  "price": 79.99,
+  "stock": 500
+}
